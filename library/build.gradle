@@ -1,4 +1,6 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+group = 'com.github.m0aaz'
 
 android {
     compileSdkVersion 27
@@ -29,5 +31,5 @@ dependencies {
     compile "com.android.support:support-v4:${supportLibVersion}"
     compile 'com.github.bumptech.glide:glide:4.2.0'
     compile 'com.nineoldandroids:library:2.4.0'
+
 }
-//apply from: './gradle-mvn-push.gradle'

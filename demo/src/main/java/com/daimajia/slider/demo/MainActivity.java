@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity implements BaseSliderView.On
             textSliderView
                     .description(name)
                     .image(file_maps.get(name))
-                    .setScaleType(BaseSliderView.ScaleType.Fit)
+                    .setScaleType(BaseSliderView.ScaleType.CenterCrop)
                     .setOnSliderClickListener(this);
 
             //add your extra information
